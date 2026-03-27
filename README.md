@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meu primeiro programa</title>
 <style>
-    body{
+body{
 background-color: rgb(105, 105, 173);
 color: white;
 font: normal 20pt Arial;
 }
 
-    h1{
+h1{
 color: rgba(255, 212, 22);
 }
 </style>
@@ -20,11 +20,10 @@ color: rgba(255, 212, 22);
 <h1>Olá, mundo!</h1>
 <p>Já me livrei da maldição!!</p>
 <script>
-    var n1 = Number(window.prompt ("Digite um número"))
-    var n2 = Number(window.prompt ("Digite outro número"))
-    var s = n1+n2
-    //*window.alert ("A soma de " + n1 + " e " + n2 + " é " + s)
-    window.alert*('A soma é:' String (s))
+var n1 =Number.parseInt( window.prompt ("Digite um número"))
+var n2 =Number.parseInt( window.prompt ("Digite outro número"))
+var s = n1+n2
+window.alert ("A soma de " + n1 + "e" + n2 + "é" + s)
 </script>
 </body>
 </html>
